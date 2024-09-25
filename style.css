@@ -66,8 +66,31 @@ button .fa-solid {
 .result-box ul li:hover {
   background: #e9f3ff;
 }
+.card-container {
+  display: flex;
+  align-items: center;
+}
 
-.cards_container {
-  margin-left: auto;
-  margin-right: auto;
+.cards {
+  background: rgb(138, 203, 206);
+  margin: 100px auto 0;
+  width: 600px;
+  height: 550px;
+}
+
+.card_body {
+  margin-left: 50px;
+}
+
+.card .card_body_sprite img {
+  background: transparent;
+  float: left;
+  margin-top: 20px;
+}
+h1 {
+  padding: 20px;
+}
+.sprite {
+  height: 100px;
+  width: 100px;
 }
